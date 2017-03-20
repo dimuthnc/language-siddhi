@@ -1,6 +1,6 @@
 'scopeName': 'source.siddhi'
 'name': 'siddhi'
-'fileTypes': ['sid', 'siddhi']
+'fileTypes': ['siddhiql', 'siddhi']
 
 'patterns': [
     {
