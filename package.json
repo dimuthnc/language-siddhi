@@ -1,0 +1,17 @@
+{
+  "name": "language-siddhi",
+  "version": "0.0.0",
+  "description": "Siddhi language support in Atom",
+  "engines": {
+    "atom": "*"
+  },
+  "dependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/dimuthnc/language-siddhi.git"
+  },
+  "bugs": {
+    "url": "https://github.com/dimuthnc/language-siddhi.git/issues"
+  },
+  "license": ""
+}

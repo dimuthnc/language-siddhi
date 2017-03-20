@@ -1,0 +1,35 @@
+'scopeName': 'source.siddhi'
+'name': 'siddhi'
+'fileTypes': ['sid', 'siddhi']
+
+'patterns': [
+    {
+         'match': '\\b(([0-9]+\\.?[0-9]*)|(\\.[0-9]+))\\b'
+         'name': 'constant.numeric.siddhi'
+    },
+    {
+         'match': 'define'
+         'name': 'keyword.other.siddhi'
+    },
+    {
+         'match': 'stream'
+         'name': 'keyword.control.siddhi'
+    },
+    {
+           'match': 'int|long|float|double|string|bool|object|year|years|month|months|day|days|hour|hours|minute|minutes|min|second|seconds|sec|millisecond|millisecondst'
+           'name': 'storage.type.siddhi'
+
+    },
+    {
+           'match': 'select|from|insert into'
+           'name': 'variable.language.siddhi'
+    },
+    {
+           'match': 'IS NULL|NOT|AND|OR|is null|not|and|or'
+           'name': 'constant.language.siddhi'
+    },
+    {
+           'match': '//+'
+           'name': 'constant.character.siddhi'
+    }
+]
